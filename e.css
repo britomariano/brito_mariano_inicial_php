@@ -1,0 +1,334 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#portada{
+	width:960px;
+	height:6rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 2rem;;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: rgb(18, 99, 2);
+    margin-left:auto;
+	margin-right:auto;
+    box-sizing: border-box;
+   
+}
+
+body{
+ width: 960px;
+ height: 350px;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+#cuerpo {
+
+    width: 960px;
+    float: left;
+    height:auto;
+    margin-left:auto;
+	margin-right:auto;
+    background-color: rgb(202, 202, 202);
+    box-sizing: border-box;
+    padding-top: 2rem;
+    margin-top:5px;
+    padding-left: 1rem;
+}
+
+
+#cuerpo  ul {
+    width: 200px;
+    margin-left:auto;
+	margin-right:auto;
+    float: left;
+    text-align: center;
+    color: rgb(7, 153, 39);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 14x;
+    font-weight: bold;
+    padding: 2rem; 
+    list-style-type: none;
+    background-color: white;
+    
+}
+
+#cuerpo  ul li {
+    width: 180px;
+
+    
+}
+
+h2{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+
+    
+}
+
+
+#cuerpo ul li {
+
+    padding: 20px 0px;
+    text-align: center;
+    padding: 1em; 
+    
+    
+}
+#canasta {
+
+    width: 960px;
+    height:300px;
+    margin-left:auto;
+	margin-right:auto;
+    background-color: rgb(202, 202, 202);
+    margin-top:5px;
+}
+
+.btn_canasta ul{
+    list-style-type: none;
+
+
+}
+.btn_canasta ul li{
+    display: inline;
+
+
+}
+
+.btn_canasta ul li  a {
+    width: 150px;
+    height: 3rem;
+    float: left;
+	text-decoration:none;
+    padding-top: 1rem;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+	margin:0px 2px;
+	text-align: center;
+	color:#000000;
+	background-color:#ffffff;
+    box-sizing: border-box;
+
+
+}
+
+.btn_canasta ul li a:hover {
+    background-color:rgb(202, 202, 202);
+    color:rgb(3, 19, 0);;
+}
+
+.producto_descripcion {
+    width: 470px;
+    float: right;
+    padding: 1rem;
+    box-sizing: border-box;
+
+
+
+
+}
+
+.producto_descripcion1 {
+    width: 500px;
+    height: 450px;
+    float: right;
+
+    padding: 1rem;
+    margin: 1rem;
+    box-sizing: border-box;
+
+
+
+
+}
+.producto_descripcion h2 {
+    font-size: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+
+
+
+}
+
+.producto_descripcion h3{
+    font-size: 14px;
+    font-family: Verdana, Tahoma, sans-serif;
+
+
+
+
+}
+.producto_descripcion h1{
+    font-size: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgb(226, 11, 11);
+
+
+
+
+}
+.img_muestra{
+    float: right;
+}
+
+.contacto_contenido{
+    width: 960px;
+    height:400px;
+    margin-left:auto;
+	margin-right:auto;
+    background-color: rgb(202, 202, 202);
+    margin-top:5px;
+}
+.contacto_contenido form{
+	
+	display:inline-block;
+	width:250px;
+	height:auto;
+    
+	margin:50px;
+	font-size:12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.textarea_input {
+	width: 171px;
+	font-size:13px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h4{
+
+    padding: 0.5rem;
+    font-size: 12px;
+
+}
+.contacto_contenido form h3{ 
+	
+	
+	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+    
+}
+.header{
+
+    width: 960px;
+    height:3rem;
+    background-color: rgb(0, 255, 191);
+    margin-left:auto;
+	margin-right:auto;
+
+
+}
+.header ul {
+
+    list-style-type: none;
+}
+
+.header ul li {
+
+    display: inline;
+}
+
+.header ul li  a {
+    width: 150px;
+    height: 3rem;
+    float: left;
+	text-decoration:none;
+    padding-top: 1rem;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+	margin:0px 2px;
+	text-align: center;
+	color:#000000;
+	background-color:#ffffff;
+    box-sizing: border-box;
+
+
+}
+
+.header ul li a:hover {
+    background-color:rgb(0, 255, 191);
+    color:rgb(18, 99, 2);;
+}
+
+
+
+footer {
+	width:960px;
+	height:100px;
+    float: left;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+    background-color:#002002;
+    color:rgba(0,255,0,0,2);
+}
+
+#caja1{
+	width:955px;
+	height:30px;
+	margin-top:5px;
+	margin-right:5px;
+    float:left;
+
+}
+
+}
+#redes2{
+	width:960px;
+	height:40px;
+	margin-top:0px;
+    float:left;
+
+  
+}
+#redes2 ul{
+	margin: 0;
+	padding: 0px 30px;
+	list-style-type: none;
+
+}
+
+#redes2 ul li{
+	display: inline;
+}
+
+#redes2 ul li a {
+	display: inline-block;
+	padding: 0px 10px;
+    margin-right:0px;
+	font-size:14px;
+	color:#ffffff;
+	text-decoration:none;
+    font-family: Verdana, Tahoma, sans-serif;
+
+
+}
+	
+#redes2 ul li a:hover {
+	  background-color:#9c9c9c;
+	  color:#ffffff;
+
+
+}
+
+#cajas4{
+	width:960px;
+	height:55px;
+	float:right;
+
+}
+#cajas4 p{
+	text-align: right;
+	color:#ffffff;
+	font-size:14px;
+	font-family:Tahoma, Arial, Helvetica;
+	margin-right: 30px;
+
+}
